@@ -1,0 +1,13 @@
+package com.securevault.entity;
+
+public enum AuditLogAction {
+    LOGIN_SUCCESS,
+    LOGIN_FAILED,
+    ACCOUNT_LOCKED,
+    CREDENTIAL_CREATED,
+    CREDENTIAL_UPDATED,
+    CREDENTIAL_DELETED,
+    CREDENTIAL_ACCESSED,
+    CREDENTIAL_SHARED,
+    SHARE_REMOVED
+}
